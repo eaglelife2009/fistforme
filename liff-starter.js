@@ -27,9 +27,238 @@ function initializeApp(data) {
     // sendMessages call
     document.getElementById('sendmessagebutton').addEventListener('click', function () {
         liff.sendMessages([{
-  "type": "video",
-  "originalContentUrl": "https://dl.dropbox.com/s/1lkbiy03wib2q20/363025.t.mp4",
-  "previewImageUrl": "https://www.creativeecon.asia/wp-content/uploads/2018/04/28378968_1854378551300780_7402387300443722679_n-696x696.jpg"
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://coachpetch.yolasite.com/resources/clip/3507x.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "แก้ปวดหลังส่วนล่าง",
+            "weight": "bold",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "size": "xs",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+              },
+              {
+                "type": "text",
+                "text": "1/3",
+                "size": "xs",
+                "color": "#8c8c8c",
+                "margin": "md",
+                "flex": 0,
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://goo.gl/apyhQc",
+               
+                }
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ท่าบริหารพิชิตปวดหลัง ใน 2 นาที กับ หมอพงศ์",
+                    "wrap": true,
+                    "color": "#8c8c8c",
+                    "size": "xs",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://coachpetch.yolasite.com/resources/clip/3506x.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "https://goo.gl/apyhQc"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ท่าบริหารเข่าเสื่อม",
+            "weight": "bold",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "size": "xs",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+              },
+              {
+                "type": "icon",
+                "size": "xs",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+              },
+              {
+                "type": "text",
+                "text": "2/3",
+                "size": "sm",
+                "color": "#8c8c8c",
+                "margin": "md",
+                "flex": 0
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ท่าบริหารพิชิตปวดหลัง ใน 2 นาที กับ หมอพงศ์",
+                    "wrap": true,
+                    "color": "#8c8c8c",
+                    "size": "xs",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://coachpetch.yolasite.com/resources/clip/3501x.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "https://goo.gl/bhtS6N",
+        
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ท่าบริหารแก้ไหล่ติด",
+            "weight": "bold",
+            "size": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "size": "xs",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+              },
+              {
+                "type": "icon",
+                "size": "xs",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+              },
+              {
+                "type": "icon",
+                "size": "xs",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
+              },
+              {
+                "type": "text",
+                "text": "3/3",
+                "size": "sm",
+                "color": "#8c8c8c",
+                "margin": "md",
+                "flex": 0
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ท่าบริหารพิชิตปวดหลัง ใน 2 นาที กับ หมอพงศ์",
+                    "wrap": true,
+                    "color": "#8c8c8c",
+                    "size": "xs",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      }
+    }
+  ]
 }
 , {
             type: 'sticker',
