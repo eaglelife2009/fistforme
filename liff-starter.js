@@ -45,6 +45,7 @@ function initializeApp(data) {
     ]
   }
 }
+}      
 , {
             type: 'sticker',
             packageId: '2',
