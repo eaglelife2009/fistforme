@@ -27,9 +27,11 @@ function initializeApp(data) {
     // sendMessages call
     document.getElementById('sendmessagebutton').addEventListener('click', function () {
         liff.sendMessages([{
-            type: 'text',
-            text: "You've successfully sent a message! Hooray!"
-        }, {
+  "type": "video",
+  "originalContentUrl": "https://dl.dropbox.com/s/1lkbiy03wib2q20/363025.t.mp4",
+  "previewImageUrl": "https://www.creativeecon.asia/wp-content/uploads/2018/04/28378968_1854378551300780_7402387300443722679_n-696x696.jpg"
+}
+, {
             type: 'sticker',
             packageId: '2',
             stickerId: '144'
