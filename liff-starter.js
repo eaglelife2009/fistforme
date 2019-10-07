@@ -27,25 +27,38 @@ function initializeApp(data) {
     // sendMessages call
     document.getElementById('sendmessagebutton').addEventListener('click', function () {
         liff.sendMessages([{
-  "type": "carousel",
-  "contents": [
-    {
-  "type": "bubble",
-  "body": {
-    "type": "box",
-    "layout": "horizontal",
-    "contents": [
-      {
-        "type": "image",
-        "url": "https://www.linefriends.com/content/banner/201804/3b5364c97c2d4a26988f85acdc78514e.jpg",
-        "size": "full",
-        "aspectRatio": "16:9",
-        "aspectMode": "cover"
-      }
-    ]
+  "type": "template",
+  "altText": "this is a image carousel template",
+  "template": {
+      "type": "image_carousel",
+      "columns": [
+          {
+            "imageUrl": "https://example.com/bot/images/item1.jpg",
+            "action": {
+              "type": "postback",
+              "label": "Buy",
+              "data": "action=buy&itemid=111"
+            }
+          },
+          {
+            "imageUrl": "https://example.com/bot/images/item2.jpg",
+            "action": {
+              "type": "message",
+              "label": "Yes",
+              "text": "yes"
+            }
+          },
+          {
+            "imageUrl": "https://example.com/bot/images/item3.jpg",
+            "action": {
+              "type": "uri",
+              "label": "View detail",
+              "uri": "http://example.com/page/222"
+            }
+          }
+      ]
   }
-}
-}      
+}     
 , {
             type: 'sticker',
             packageId: '2',
